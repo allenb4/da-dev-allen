@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 30px;
+  background-color: floralwhite;
 }
 
 .App-logo {
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.submit-button {
+  margin-top: 3%;
+}
+
+.add-remove-button {
+  margin-right: 1rem;
 }
